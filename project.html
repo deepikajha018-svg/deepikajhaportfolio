@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centralized Event Management — Project</title>
+
+  <!-- Font Awesome for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* Reset some default styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: #1a1a1a;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      list-style: none;
+      padding: 15px 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff9800;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #1a1a1a;
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 40px 20px;
+      margin-top: 50px;
+    }
+
+    footer div {
+      margin-bottom: 20px;
+      max-width: 250px;
+    }
+
+    footer h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #ff9800;
+    }
+
+    footer p {
+      margin-bottom: 5px;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    /* Social footer icons */
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .social-icons a {
+      background: #ffffff22;
+      padding: 12px;
+      border-radius: 50%;
+      font-size: 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      color: white;
+    }
+    .social-icons a:hover {
+      background: #ff9800;
+      transform: scale(1.2);
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      footer {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      footer div {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Centralized Event Management</h1>
+    <p><strong>Project Brief:</strong> Centralized Event Management is a platform designed to streamline the planning, organization, and execution of events. It allows users to manage multiple events, track registrations, handle vendor coordination, process payments, and generate reports — all from a single unified interface. The system aims to save time, reduce errors, and improve efficiency in event operations.</p>
+  </div>
+
+  <footer>
+    <div>
+      <h3>Contact Information</h3>
+      <p>📧 deepikajha018@gmail.com</p>
+      <p>📞 9702975160</p>
+    </div>
+
+    <div>
+      <h3>Social Media</h3>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/9702975160" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+
+    <div>
+      <h3>Location</h3>
+      <p>C/111 Shripal Bharti Bldg No.2, Unitech Virar West 401303</p>
+    </div>
+  </footer>
+</body>
+</html>
